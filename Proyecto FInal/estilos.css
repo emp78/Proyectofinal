@@ -1,0 +1,82 @@
+*{margin: 0px; padding: 0px;}
+
+body{background-color: black;}
+
+.menuCSS3{width: 550px; 
+    margin: 0px auto;}
+
+ul {display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {display: block;
+    padding: 2em;
+    margin: 0px auto;
+    background-color: brown;
+    color: #191C26;
+    text-decoration: none;
+}
+ul > li > ul {display: inline-block;
+    position: relative;
+}
+a:hover{ color: gold;}
+
+.menu{position: absolute;
+    display: none;}
+
+ul li:hover .menu{display: block;}
+
+
+section{background-color: black;
+    height: 1400px;
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+.todo{color: white; font-style: italic;}
+.redes h1{font-size: 32px;}
+.row{margin-top: 20px;
+    display: flex;}
+.row img{width: 36px;height: 36px;}
+.row label{margin: 10px;}
+
+
+aside{background-color: black;
+    height: 1400px;
+    float: right;
+    width: 300px;
+}
+.pelis{margin: 1em;padding: 2em;
+    float: left;
+    color: white;
+    height: 350px;
+}
+p{color: white;margin: auto;}
+.pelis1{margin: 1em;padding: 2em;
+        float: left;
+        color: white;
+        height: 350px;
+}
+.trailer{background-color: black;
+    color: red;
+    text-decoration: none;
+}
+.pelis2{margin: 1em;padding: 2em;
+    float: left;
+    color: white;
+    height: 350px;
+}
+
+
+footer{position: absolute;
+    bottom: 0;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100vw;
+    padding-top: 12px;
+}
+
+.footer1{max-width: 500px;}
+.footer1 h1{font-size: 22px;}
