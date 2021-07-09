@@ -68,15 +68,3 @@ p{color: white;margin: auto;}
     height: 350px;
 }
 
-
-footer{position: absolute;
-    bottom: 0;
-    background-color: blue;
-    color: white;
-    height: 30px;
-    width: 100vw;
-    padding-top: 12px;
-}
-
-.footer1{max-width: 500px;}
-.footer1 h1{font-size: 22px;}
